@@ -248,6 +248,12 @@
       "languageVersion": "2.7"
     },
     {
+      "name": "json_serializable",
+      "rootUri": "file:///Users/waltuirsilvajunior/.pub-cache/hosted/pub.dartlang.org/json_serializable-3.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "logging",
       "rootUri": "file:///Users/waltuirsilvajunior/.pub-cache/hosted/pub.dartlang.org/logging-0.11.4",
       "packageUri": "lib/",
@@ -518,7 +524,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-10-01T23:59:14.742523Z",
+  "generated": "2020-10-03T13:56:26.282298Z",
   "generator": "pub",
   "generatorVersion": "2.10.0"
 }
