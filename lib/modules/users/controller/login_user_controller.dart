@@ -25,7 +25,5 @@ class LoginUserController extends ResourceController {
       print(e);
       return Response.serverError(body: {"message": "Internal Server Error!"});
     }
-
-    return Response.ok({});
   }
 }
