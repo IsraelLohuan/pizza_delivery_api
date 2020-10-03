@@ -5,7 +5,7 @@ part 'menu.g.dart';
 
 @JsonSerializable()
 class Menu {
-  final id;
+  int id;
   String name;
   List<MenuItem> items;
 

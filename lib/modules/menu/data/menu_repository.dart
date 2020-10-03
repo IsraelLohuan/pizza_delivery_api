@@ -23,7 +23,7 @@ class MenuRepository implements IMenuRepository {
         final menus = result.map<Menu>((row) {
           final fields = row.fields;
           return Menu(
-            id: fields["id_cardapio_grupo"],
+            id: fields["id_cardapio_grupo"] as int,
             name: fields["nome_grupo"] as String,
           );
         }).toList();

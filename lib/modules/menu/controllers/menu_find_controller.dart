@@ -11,6 +11,6 @@ class MenuFindController extends ResourceController {
   @Operation.get()
   Future<Response> findAll() async {
     final menus = await _service.getAllMenus();
-    return Response.ok(menus.map((e) => e.toJson).toList());
+    return Response.ok(menus.map((e) => e.toJson()).toList());
   }
 }

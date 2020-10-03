@@ -8,7 +8,7 @@ part of 'menu.dart';
 
 Menu _$MenuFromJson(Map<String, dynamic> json) {
   return Menu(
-    id: json['id'],
+    id: json['id'] as int,
     name: json['name'] as String,
     items: (json['items'] as List)
         ?.map((e) =>
